@@ -5,7 +5,9 @@
 ps: 因为需要去重，所以引入了mysql进行单词的存储
 
 ## 如何使用
+Mysql 版本 8.0.33
 
+Java  版本 JDK17
 1. 拉取代码
 2. 拉取Maven依赖
 3. 执行init.sql
