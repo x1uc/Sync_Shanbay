@@ -1,0 +1,22 @@
+shanbay:
+  getWordUrl: "https://apiv3.shanbay.com/wordsapp/words/vocab?word="
+  collectionUrl: "https://apiv3.shanbay.com/wordscollection/words"
+  cookie: input you cookie
+youdao:
+  cookie: input you youdao dict
+  collectionUrl: "https://dict.youdao.com/wordbook/webapi/v2/word/list?limit=20&offset=0&sort=time&lanTo=&lanFrom="
+scheduleTime: 3600000
+user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+logging:
+  level:
+    root: error
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/shanbay
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
