@@ -1,3 +1,7 @@
+## JS版本
+js-version分支为js版本的同步工具，没有任何多余的操作，只做一次性同步。
+[js-version](https://github.com/x1uc/Sync_Shanbay/tree/js-version)
+
 ## 作用
 
 - 拉取有道单词收藏单词本
